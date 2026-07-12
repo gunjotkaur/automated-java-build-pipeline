@@ -1,2 +1,2 @@
 automated-java-build-pipeline
-by ishtpreet kaur and gunjot kaur
+by ishtpreet kaur and gunjot kaur virdi
