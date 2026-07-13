@@ -4,27 +4,25 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                checkout scm //downloading the latest code from github
+                checkout scm // Downloading the latest code from GitHub
             }
         }
 
         stage('Build') {
             steps {
-                bat 'mvn clean compile' //removing the older things and building newly to avoid confusions
+                bat 'mvn clean compile' // Removes previous build files and compiles the project
             }
         }
 
         stage('Test') {
             steps {
-                bat 'mvn test' //to test the code, if it fails then pipeline stops, else it continues
+                bat 'mvn test' // Runs all test cases. If any test fails, the pipeline stops.
             }
         }
 
         stage('Package') {
             steps {
-                bat 'mvn package' //After compilation and testing,
-
-the application is bundled into a distributable file. maven usually use .jar extension file
+                bat 'mvn package' // Creates the distributable JAR file after successful build and testing.
             }
         }
     }
