@@ -6,6 +6,6 @@ import org.junit.Test;
 public class AppTest {
     @Test
     public void testSubtract() {
-        assertEquals(2, App.add(5, 3));
+        assertEquals(2, App.Add(5, 3));
     }
 }

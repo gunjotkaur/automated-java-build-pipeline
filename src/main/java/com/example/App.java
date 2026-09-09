@@ -1,11 +1,11 @@
 package com.example;
 
 public class App {
-    public static int add(int a, int b) {
+    public static int Add(int a, int b) {
         return a + b;
     }
 
     public static void main(String[] args) {
-        System.out.println("Sum: " + add(5, 3));
+        System.out.println("Sum: " + Add(5, 3));
     }
 }
