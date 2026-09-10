@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Automated Java Pipeline</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+            JAVA<span>PIPE</span>
+        </div>
+
+        <nav>
+            <a href="#dashboard">Dashboard</a>
+            <a href="#pipeline">Pipeline</a>
+            <a href="#builds">Builds</a>
+        </nav>
+    </header>
+
+
+    <main>
+
+        <!-- Dashboard -->
+
+        <section class="dashboard" id="dashboard">
+
+            <div class="intro">
+
+                <p class="label">JENKINS CI/CD</p>
+
+                <h1>
+                    Automated Java
+                    <br>
+                    Build Pipeline
+                </h1>
+
+                <p class="description">
+                    An automated Continuous Integration and Continuous
+                    Delivery pipeline for building, testing and packaging
+                    Java applications using Jenkins.
+                </p>
+
+                <div class="buttons">
+
+                    <a href="#" class="primary-btn">
+                        View Jenkins
+                    </a>
+
+                    <a href="https://github.com/gunjotkaur/automated-java-build-pipeline"
+                       target="_blank"
+                       class="secondary-btn">
+                        View GitHub
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- Status -->
+
+            <div class="status-card">
+
+                <div class="status-top">
+
+                    <span>Pipeline Status</span>
+
+                    <span class="online">
+                        ● ONLINE
+                    </span>
+
+                </div>
+
+
+                <div class="success-icon">
+                    ✓
+                </div>
+
+
+                <h2>
+                    BUILD SUCCESS
+                </h2>
+
+                <p>
+                    Latest Build
+                </p>
+
+                <strong id="buildNumber">
+                    #12
+                </strong>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- Pipeline -->
+
+        <section class="pipeline-section" id="pipeline">
+
+            <div class="section-heading">
+
+                <p class="label">
+                    AUTOMATION
+                </p>
+
+                <h2>
+                    Pipeline Stages
+                </h2>
+
+                <p>
+                    Every code change passes through these automated stages.
+                </p>
+
+            </div>
+
+
+            <div class="pipeline">
+
+                <div class="stage">
+
+                    <div class="stage-icon">
+                        ✓
+                    </div>
+
+                    <h3>
+                        Code Checkout
+                    </h3>
+
+                    <p>
+                        Latest code retrieved
+                    </p>
+
+                </div>
+
+
+                <div class="arrow">
+                    →
+                </div>
+
+
+                <div class="stage">
+
+                    <div class="stage-icon">
+                        ✓
+                    </div>
+
+                    <h3>
+                        Build
+                    </h3>
+
+                    <p>
+                        Java project compiled
+                    </p>
+
+                </div>
+
+
+                <div class="arrow">
+                    →
+                </div>
+
+
+                <div class="stage">
+
+                    <div class="stage-icon">
+                        ✓
+                    </div>
+
+                    <h3>
+                        Test
+                    </h3>
+
+                    <p>
+                        Automated tests executed
+                    </p>
+
+                </div>
+
+
+                <div class="arrow">
+                    →
+                </div>
+
+
+                <div class="stage">
+
+                    <div class="stage-icon">
+                        ✓
+                    </div>
+
+                    <h3>
+                        Package
+                    </h3>
+
+                    <p>
+                        Application packaged
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- Build Information -->
+
+        <section class="build-section" id="builds">
+
+            <div class="section-heading">
+
+                <p class="label">
+                    BUILD INFORMATION
+                </p>
+
+                <h2>
+                    Latest Pipeline Activity
+                </h2>
+
+            </div>
+
+
+            <div class="build-grid">
+
+
+                <div class="build-card">
+
+                    <span>
+                        Latest Build
+                    </span>
+
+                    <h3 id="latestBuild">
+                        #12
+                    </h3>
+
+                    <p>
+                        Successful
+                    </p>
+
+                </div>
+
+
+                <div class="build-card">
+
+                    <span>
+                        Build Status
+                    </span>
+
+                    <h3>
+                        SUCCESS
+                    </h3>
+
+                    <p>
+                        Pipeline completed
+                    </p>
+
+                </div>
+
+
+                <div class="build-card">
+
+                    <span>
+                        Java Version
+                    </span>
+
+                    <h3>
+                        JDK 17
+                    </h3>
+
+                    <p>
+                        Build environment
+                    </p>
+
+                </div>
+
+
+                <div class="build-card">
+
+                    <span>
+                        CI/CD Tool
+                    </span>
+
+                    <h3>
+                        Jenkins
+                    </h3>
+
+                    <p>
+                        Automation server
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+
+    <footer>
+
+        <p>
+            Automated Java Build Pipeline
+        </p>
+
+        <p>
+            Java • Jenkins • CI/CD
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
