@@ -5,7 +5,7 @@ import org.junit.Test;
 
 public class AppTest {
     @Test
-    public void testMultiply() {
-        assertEquals(15, App.multiply(5, 3));
+    public void testAdd() {
+        assertEquals(8, App.add(5, 3));
     }
 }
