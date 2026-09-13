@@ -1,1 +1,0 @@
-console.log("Automated Java Pipeline Dashboard Loaded");
